@@ -49,19 +49,19 @@
     font-size: 12px;
     overflow-y: scroll;
     overflow-x: scroll;
-    max-height: 220px;
+    min-height: 220px;
 }
 
 .snippet-container pre {
     margin: 0;
     overflow: hidden;
     width: 100%;
-    max-height: 220px;
+    min-height: 220px;
 }
 
 .snippet-container code {
     white-space: pre-wrap;
-    max-height: 220px;
+    min-height: 220px;
     width: max-content;
     overflow: hidden;
 

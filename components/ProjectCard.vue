@@ -48,11 +48,14 @@ const { project, key, index } = defineProps(['project', 'key', 'index'])
   max-height: 120px;
   position: relative;
   overflow: hidden;
+  display: flex;
+  align-items: center;
 }
 
 #showcase {
   border-top-right-radius: 15px;
   border-top-left-radius: 15px;
+  align-items: center;
 }
 
 @media (max-width: 768px) {
