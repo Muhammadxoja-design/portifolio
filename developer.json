@@ -98,10 +98,10 @@
     "projects": {
         "1": {
             "title": "school",
-            "description": "Duis aute irure dolor in velit esse cillum dolore.",
+            "description": "This site was specially designed for my school.",
             "img": "https://app.netlify.com/.netlify/images?url=https://d33wubrfki0l68.cloudfront.net/68a6aac5eb32ce00088d171d/screenshot_2025-08-21-05-12-58-0000.webp&fit=cover&h=500&q=40&w=800",
             "tech": ["React"],
-            "url": "max-height"
+            "url": "https://oltiariqmaktab.netlify.app"
         },
         "2": {
             "title": "Portifolio",

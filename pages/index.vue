@@ -105,9 +105,10 @@ function handleResize() {
 
 #hello .hero {
 	display: flex;
+	font-size: 50px;
 	flex-direction: column;
 	/* display: grid;
-	grid-template-columns: repeat(12, minmax(0, 1fr)); */
+	grid-template-columns: repeat(12, minmax(0, 1fr));  */
 	margin: 0rem;
 }
 
@@ -120,7 +121,6 @@ function handleResize() {
 }
 
 #hello .head h1 {
-  font-size: 58px;
   line-height: 1;
   color: #E5E9F0;
   font-family: 'Fira Code Regular';
@@ -333,4 +333,12 @@ function handleResize() {
 	}
 }
 
+@media (max-width: 465px){
+	#hello .head h1 {
+		font-size: 35px;
+	}
+	.string {
+		font-size: 12px;
+	}
+}
 </style>
