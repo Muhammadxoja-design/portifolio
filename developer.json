@@ -1,121 +1,141 @@
-{
-    "name": "Muhammadxo'ja Kimyonazarov",
-    "logo_name": "kimyonazarov",
-    "role": "Full-stack developer",
-    "about": {
-        "sections": {
-            "professional-info": {
-                "title": "professional-info",
-                "icon": "icons/info-professional.svg",
-                "info": {
-                    "experience": {
-                        "title": "experience",
-                        "description": "<br>Over the past 5 years, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-                    },
-                    "hard-skills": {
-                        "title": "hard-skills",
-                        "description": "<br>As a front-end developer, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-                    },
-                    "soft-skills": {
-                        "title": "soft-skills",
-                        "description": "<br>I bring more than Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br><br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-                    }
-                }
-            },
-            "personal-info": {
-                "title": "personal-info",
-                "icon": "icons/info-personal.svg",
-                "info": { 
-                    "bio": {
-                        "title": "bio",
-                        "description": "<br> About me <br> I have 5 years of experience in web development lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat  nulla pariatur. Excepteur sint occaecat  officia deserunt mollit anim id est laborum."
-                    },
-                    "interests": {
-                        "title": "interests",
-                        "description": "<br>I am constantly learning and lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-                    },
-                    "education": {
-                        "title": "education",
-                        "description": "<br>I have always been passionate about lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-                        "files": {
-                            "high-school": "I have been in 'Las viñas'...",
-                            "university": "The university..."
-                        }
-                    }
-                }
-            },
-            "hobbies-info": {
-                "title": "hobbies-info",
-                "icon": "icons/info-hobbies.svg",
-                "info": {
-                    "sports": {
-                        "title": "sports",
-                        "description": "<br>I am an avid sports enthusiast and lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-                    },
-                    "favorite-games": {
-                        "title": "favorite-games",
-                        "description": "<br>I am a passionate gamer with Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br><br> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                    }
-                }
-            }
+    {
+  "name": "Muhammadxo'ja Kimyonazarov",
+  "logo_name": "kimyonazarov",
+  "role": "Full-stack developer",
+  "about": {
+    "sections": {
+      "professional-info": {
+        "title": "professional-info",
+        "icon": "icons/info-professional.svg",
+        "info": {
+          "experience": {
+            "title": "experience",
+            "description": "<br>Over the past 5 years, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+          },
+          "hard-skills": {
+            "title": "hard-skills",
+            "description": "<br>As a front-end developer, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+          },
+          "soft-skills": {
+            "title": "soft-skills",
+            "description": "<br>I bring more than Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br><br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+          }
         }
-    },
-    "contacts": {
-        "direct": {
-            "title": "contacts",
-            "sources": {
-                "email": "kimyonazarov@gmail.com",
-                "phone": "+998 90 301 00 35"
+      },
+      "personal-info": {
+        "title": "personal-info",
+        "icon": "icons/info-personal.svg",
+        "info": {
+          "bio": {
+            "title": "bio",
+            "description": "<br> About me <br> I have 5 years of experience in web development lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat  nulla pariatur. Excepteur sint occaecat  officia deserunt mollit anim id est laborum."
+          },
+          "interests": {
+            "title": "interests",
+            "description": "<br>I am constantly learning and lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+          },
+          "education": {
+            "title": "education",
+            "description": "<br>I have always been passionate about lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            "files": {
+              "high-school": "I have been in 'Las viñas'...",
+              "university": "The university..."
             }
-        },
-        "social": {
-            "github": {
-                "title": "Github profile",
-                "url": "https://github.com/Muhammadxoja-design",
-                "user": "Muhammadxoja-Design"
-            },
-            "facebook": {
-                "title": "Facebook profile",
-                "url": "https://facebook.com/profile.php?id=61566766640962",
-                "user": "Muhammadxoja Kimyonazarov"
-            }
-        },
-        "find_me_also_in": {
-            "title": "find-me-also-in",
-            "sources": {
-                "youtube": {
-                    "title": "YouTube channel",
-                    "url": "https://www.youtube.com/@CodeDominator",
-                    "user": "Code Dominator"
-                }
-            }
+          }
         }
-    },
-    "gists": {
-        "1": "d4917bc06ac29bd2c29e8ea7b8d9d1a1",
-        "2": "694c1f32332788a2ac7f37b09e5aa40e"
-    },
-    "projects": {
-        "1": {
-            "title": "school",
-            "description": "This site was specially designed for my school.",
-            "img": "https://app.netlify.com/.netlify/images?url=https://d33wubrfki0l68.cloudfront.net/68a6aac5eb32ce00088d171d/screenshot_2025-08-21-05-12-58-0000.webp&fit=cover&h=500&q=40&w=800",
-            "tech": ["React"],
-            "url": "https://oltiariqmaktab.netlify.app"
-        },
-        "2": {
-            "title": "Portifolio",
-            "description": "Duis aute irure dolor in velit esse cillum dolore.",
-            "img": "https://app.netlify.com/.netlify/images?url=https://d33wubrfki0l68.cloudfront.net/67b717aec21ee51a5618339f/screenshot_2025-02-20-11-54-08-0000.webp&fit=cover&h=500&q=40&w=800",
-            "tech": ["HTML"],
-            "url": "https://github.com/"
-        },
-        "3": {
-            "title": "Music Plaer",
-            "description": "Duis aute irure dolor in velit esse cillum dolore.",
-            "img": "https://app.netlify.com/.netlify/images?url=https://d33wubrfki0l68.cloudfront.net/67c57a49f34857f9c797ee99/screenshot_2025-03-03-09-46-14-0000.webp&fit=cover&h=500&q=40&w=800",
-            "tech": ["React"],
-            "url": "https://github.com/"
+      },
+      "hobbies-info": {
+        "title": "hobbies-info",
+        "icon": "icons/info-hobbies.svg",
+        "info": {
+          "sports": {
+            "title": "sports",
+            "description": "<br>I am an avid sports enthusiast and lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+          },
+          "favorite-games": {
+            "title": "favorite-games",
+            "description": "<br>I am a passionate gamer with Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br><br> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          }
         }
+      },
+      "geometry": {
+        "title": "Geometriya",
+        "icon": "icons/geometry.svg",
+        "info": {
+          "triangle-area": {
+            "title": "Uchburchak yuzini hisoblash",
+            "description": "A = 1/2 · a · b · sin(C) formulasi bilan interaktiv hisoblagich uchun komponent mavjud.",
+            "files": {
+              "Kirish.md": "Ushbu bo'limda A = 1/2 a b sin C formulasi tushuntiriladi."
+            }
+          },
+          "law-of-sines": {
+            "title": "Sinuslar teoremasi",
+            "description": "a/sinA = b/sinB = c/sinC — interaktiv yechim komponenti mavjud.",
+            "files": {
+              "Kirish.md": "Sinuslar teoremasining qisqacha izohi."
+            }
+          }
+        }
+      }
     }
+  },
+  "contacts": {
+    "direct": {
+      "title": "contacts",
+      "sources": {
+        "email": "kimyonazarov@gmail.com",
+        "phone": "+998 90 301 00 35"
+      }
+    },
+    "social": {
+      "github": {
+        "title": "Github profile",
+        "url": "https://github.com/Muhammadxoja-design",
+        "user": "Muhammadxoja-Design"
+      },
+      "facebook": {
+        "title": "Facebook profile",
+        "url": "https://facebook.com/profile.php?id=61566766640962",
+        "user": "Muhammadxoja Kimyonazarov"
+      }
+    },
+    "find_me_also_in": {
+      "title": "find-me-also-in",
+      "sources": {
+        "youtube": {
+          "title": "YouTube channel",
+          "url": "https://www.youtube.com/@CodeDominator",
+          "user": "Code Dominator"
+        }
+      }
+    }
+  },
+  "gists": {
+    "1": "d4917bc06ac29bd2c29e8ea7b8d9d1a1",
+    "2": "694c1f32332788a2ac7f37b09e5aa40e"
+  },
+  "projects": {
+    "1": {
+      "title": "school",
+      "description": "This site was specially designed for my school.",
+      "img": "https://app.netlify.com/.netlify/images?url=https://d33wubrfki0l68.cloudfront.net/68a6aac5eb32ce00088d171d/screenshot_2025-08-21-05-12-58-0000.webp&fit=cover&h=500&q=40&w=800",
+      "tech": ["React"],
+      "url": "https://oltiariqmaktab.netlify.app"
+    },
+    "2": {
+      "title": "Portifolio",
+      "description": "Duis aute irure dolor in velit esse cillum dolore.",
+      "img": "https://app.netlify.com/.netlify/images?url=https://d33wubrfki0l68.cloudfront.net/67b717aec21ee51a5618339f/screenshot_2025-02-20-11-54-08-0000.webp&fit=cover&h=500&q=40&w=800",
+      "tech": ["HTML"],
+      "url": "https://github.com/"
+    },
+    "3": {
+      "title": "Music Plaer",
+      "description": "Duis aute irure dolor in velit esse cillum dolore.",
+      "img": "https://app.netlify.com/.netlify/images?url=https://d33wubrfki0l68.cloudfront.net/67c57a49f34857f9c797ee99/screenshot_2025-03-03-09-46-14-0000.webp&fit=cover&h=500&q=40&w=800",
+      "tech": ["React"],
+      "url": "https://github.com/"
+    }
+  }
 }

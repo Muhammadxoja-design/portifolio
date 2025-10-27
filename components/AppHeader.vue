@@ -1,32 +1,36 @@
 <template>
-    <header id="navbar" class="w-full hidden lg:flex flex-col">
-      <nav class="w-full flex justify-between border-bot">
-        <github-corner url="https://github.com/Muhammadxoja-Design" />
-          <div class="flex">
-            <NuxtLink id="nav-logo" to="/">
-              {{ config.logo_name }}
-            </NuxtLink>
+  <header id="navbar" class="w-full hidden lg:flex flex-col">
+    <nav class="w-full flex justify-between border-bot">
+      <github-corner url="https://github.com/Muhammadxoja-Design" />
+      <div class="flex">
+        <NuxtLink id="nav-logo" to="/">
+          {{ config.logo_name }}
+        </NuxtLink>
 
-            <NuxtLink id="nav-link" to="/" :class="{ active: isActive('/') }">
-              _hello
-            </NuxtLink>
-  
-            <NuxtLink id="nav-link" to="/about-me" :class="{ active: isActive('/about-me') }">
-              _about-me
-            </NuxtLink>
-  
-            <NuxtLink id="nav-link" to="/projects" :class="{ active: isActive('/projects') }">
-              _projects
-            </NuxtLink>
-          </div>
+        <NuxtLink id="nav-link" to="/" :class="{ active: isActive('/') }">
+          _hello
+        </NuxtLink>
 
-          <NuxtLink id="nav-link-contact" to="/contact-me" :class="{ active: isActive('/contact-me')}">
-            _contact-me
-          </NuxtLink>
-      
-      </nav>
+        <NuxtLink id="nav-link" to="/about-me" :class="{ active: isActive('/about-me') }">
+          _about-me
+        </NuxtLink>
 
-    </header>
+        <NuxtLink id="nav-link" to="/projects" :class="{ active: isActive('/projects') }">
+          _projects
+        </NuxtLink>
+
+        <NuxtLink id="nav-link" to="/school" :class="{ active: isActive('/school') }">
+          _school
+        </NuxtLink>
+      </div>
+
+      <NuxtLink id="nav-link-contact" to="/contact-me" :class="{ active: isActive('/contact-me')}">
+        _contact-me
+      </NuxtLink>
+
+    </nav>
+
+  </header>
 
 </template>
 
