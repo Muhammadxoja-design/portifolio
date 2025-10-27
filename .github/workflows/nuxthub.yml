@@ -1,24 +1,38 @@
-- name: Setup Node.js
-  uses: actions/setup-node@v4
-  with:
-    node-version: 18
-    cache: 'npm'
+name: Deploy to NuxtHub
+on: push
 
-- name: Ensure clean state
-  run: |
-    rm -f yarn.lock
-    rm -rf node_modules
-    npm cache clean --force
+jobs:
+  deploy:
+    name: "Deploy to NuxtHub"
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
 
-- name: Install OS build tools (for native modules)
-  run: |
-    sudo apt-get update
-    sudo apt-get install -y build-essential python3 make g++
+    steps:
+      - uses: actions/checkout@v4
 
-- name: Install dependencies (npm)
-  run: npm ci
+      - name: Setup Node.js (use npm)
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: 'npm'
 
-- name: Try rebuild native modules if binding missing
-  # try to build from source if optional native binaries were not installed
-  run: |
-    node -e "try { require('oxc-parser'); console.log('oxc-parser ok'); } catch(e) { console.log('oxc-parser missing - rebuilding'); process.exit(1); }" || npm rebuild --build-from-source
+      - name: Ensure clean state (remove yarn leftovers)
+        run: |
+          rm -f yarn.lock
+          rm -rf node_modules
+
+      - name: Install dependencies (npm)
+        run: npm ci
+
+      - name: Ensure NuxtHub module is installed
+        # If npx nuxthub... previously caused rollup/native errors,
+        # try running it after a clean npm ci. If this step fails,
+        # consider adding @nuxthub/core to package.json devDependencies instead.
+        run: npx nuxthub@latest ensure
+
+      - name: Build & Deploy to NuxtHub
+        uses: nuxt-hub/action@v2
+        with:
+          project-key: kimyonazarov-6a35
