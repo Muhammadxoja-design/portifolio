@@ -12,19 +12,24 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Enable Corepack
-        run: corepack enable
-
-      - name: Install Node.js
+      - name: Setup Node.js (use npm)
         uses: actions/setup-node@v4
         with:
-          node-version: 22
-          cache: 'yarn'
+          node-version: 18
+          cache: 'npm'
 
-      - name: Install dependencies
-        run: yarn install
+      - name: Ensure clean state (remove yarn leftovers)
+        run: |
+          rm -f yarn.lock
+          rm -rf node_modules
+
+      - name: Install dependencies (npm)
+        run: npm ci
 
       - name: Ensure NuxtHub module is installed
+        # If npx nuxthub... previously caused rollup/native errors,
+        # try running it after a clean npm ci. If this step fails,
+        # consider adding @nuxthub/core to package.json devDependencies instead.
         run: npx nuxthub@latest ensure
 
       - name: Build & Deploy to NuxtHub
