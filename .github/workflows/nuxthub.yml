@@ -1,5 +1,8 @@
 name: Deploy to NuxtHub
-on: push
+on: 
+  push:
+    branches:
+      - main  # Change this if you're using another branch like 'master'
 
 jobs:
   deploy:
@@ -10,29 +13,34 @@ jobs:
       id-token: write
 
     steps:
+      # Checkout the repository
       - uses: actions/checkout@v4
 
+      # Set up Node.js and enable npm caching
       - name: Setup Node.js (use npm)
         uses: actions/setup-node@v4
         with:
           node-version: 18
           cache: 'npm'
 
+      # Ensure clean state (remove yarn leftovers if any)
       - name: Ensure clean state (remove yarn leftovers)
         run: |
           rm -f yarn.lock
+          # Ensure there are no leftover node_modules from previous builds
           rm -rf node_modules
 
+      # Install dependencies using npm ci (requires package-lock.json)
       - name: Install dependencies (npm)
         run: npm ci
 
+      # Ensure NuxtHub module is installed
       - name: Ensure NuxtHub module is installed
-        # If npx nuxthub... previously caused rollup/native errors,
-        # try running it after a clean npm ci. If this step fails,
-        # consider adding @nuxthub/core to package.json devDependencies instead.
         run: npx nuxthub@latest ensure
 
+      # Build & Deploy to NuxtHub
       - name: Build & Deploy to NuxtHub
         uses: nuxt-hub/action@v2
         with:
-          project-key: kimyonazarov-6a35
+          project-key: kimyonazarov-6a35  # Make sure the key is correct
+
