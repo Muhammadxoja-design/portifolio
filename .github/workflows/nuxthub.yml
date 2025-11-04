@@ -1,8 +1,8 @@
 name: Deploy to NuxtHub
-on: 
+on:
   push:
     branches:
-      - main  # Change this if you're using another branch like 'master'
+      - main
 
 jobs:
   deploy:
@@ -13,34 +13,38 @@ jobs:
       id-token: write
 
     steps:
-      # Checkout the repository
       - uses: actions/checkout@v4
 
-      # Set up Node.js and enable npm caching
-      - name: Setup Node.js (use npm)
+      - name: Setup Node.js (npm)
         uses: actions/setup-node@v4
         with:
           node-version: 18
           cache: 'npm'
+          cache-dependency-path: package-lock.json
 
-      # Ensure clean state (remove yarn leftovers if any)
-      - name: Ensure clean state (remove yarn leftovers)
+      - name: Debug repo (list files)
         run: |
-          rm -f yarn.lock
-          # Ensure there are no leftover node_modules from previous builds
-          rm -rf node_modules
+          echo "Working dir: $(pwd)"
+          ls -la
+          echo "--- package.json ---"
+          cat package.json || true
+          echo "--- lockfiles ---"
+          ls -la yarn.lock package-lock.json || true
+          node -v
+          npm -v
 
-      # Install dependencies using npm ci (requires package-lock.json)
-      - name: Install dependencies (npm)
+      # optional: remove leftover node_modules if you want a clean state
+      - name: Ensure clean state (optional)
+        run: |
+          if [ -d node_modules ]; then rm -rf node_modules; fi
+
+      - name: Install dependencies (npm ci)
         run: npm ci
 
-      # Ensure NuxtHub module is installed
       - name: Ensure NuxtHub module is installed
         run: npx nuxthub@latest ensure
 
-      # Build & Deploy to NuxtHub
       - name: Build & Deploy to NuxtHub
         uses: nuxt-hub/action@v2
         with:
-          project-key: kimyonazarov-6a35  # Make sure the key is correct
-
+          project-key: ${{ secrets.NUXTHUB_PROJECT_KEY }}

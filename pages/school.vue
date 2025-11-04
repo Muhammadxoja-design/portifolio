@@ -247,12 +247,12 @@ export default {
           'triangle-area': {
             title: 'Uchburchak yuzini hisoblash',
             description: "A = 1/2 · a · b · sin(C) formulasi bilan interaktiv hisoblagich uchun komponent mavjud.",
-            files: { 'Kirish.md': "Ushbu bo'limda A = 1/2 a b sin C formulasi tushuntiriladi." }
+            files: { 'yuzini-hisoblash.md': "Ushbu bo'limda A = 1/2 a b sin C formulasi tushuntiriladi." }
           },
           'law-of-sines': {
             title: 'Sinuslar teoremasi',
             description: 'a/sinA = b/sinB = c/sinC — interaktiv yechim komponenti mavjud.',
-            files: { 'Kirish.md': 'Sinuslar teoremasining qisqacha izohi.' }
+            files: { 'sinuslar-teoremasi.md': 'Sinuslar teoremasining qisqacha izohi.' }
           }
         }
       };
